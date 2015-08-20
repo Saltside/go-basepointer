@@ -1,6 +1,6 @@
 // Package basepointer provides functions that return pointers to base types
 // given as their sole argument.
-package basepointer // import "antiklimax.se/go-basepointer"
+package basepointer
 
 func UintPtr(v uint) *uint       { return &v }
 func Uint8Ptr(v uint8) *uint8    { return &v }

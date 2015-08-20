@@ -9,9 +9,9 @@ E.g.
 package main
 
 import (
-	. "antiklimax.se/go-basepointer"
+	"antiklimax.se/go-basepointer"
 )
 
-var x *string = StringPtr("point to me")
-var y *float64 = Float64Ptr(3.141592)
+var x *string = basepointer.StringPtr("point to me")
+var y *float64 = basepointer.Float64Ptr(3.141592)
 ```
